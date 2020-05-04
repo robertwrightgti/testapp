@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-intro',
-  templateUrl: './intro.component.html',
-  styleUrls: ['./intro.component.scss']
+    selector: 'app-intro',
+    templateUrl: './intro.component.html',
+    styleUrls: ['./intro.component.scss']
 })
 export class IntroComponent implements OnInit {
 
-  title = 'testapp';
+    title = 'testapp';
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }
